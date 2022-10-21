@@ -1,4 +1,7 @@
 import React from "react";
+
+import './styles/output.css'
+
 import Mainpage from "./Pages/Mainpage";
 
 
