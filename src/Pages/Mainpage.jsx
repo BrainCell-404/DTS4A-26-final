@@ -1,13 +1,12 @@
 import React from "react";
-
-import Component1 from "../Components/Component1";
+import Navbar from "../Components/Navbar/Navbar";
 
 const Mainpage = () => {
   return (
-    <>
-      <Component1 />
+    <div className="bg-blue-500">
+      <Navbar />
       <p>Test paragraph</p>
-    </>
+    </div>
   );
 };
 
