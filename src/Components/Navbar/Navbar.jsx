@@ -1,9 +1,11 @@
 import React from "react";
 
+import logoutIcon from "../../Assets/log-out.png";
+
 const Navbar = () => {
   return (
-    <nav class="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between bg-white shadow w-full px-20 py-5 items-center">
-      <div class=" sm:mb-0 items-center">
+    <nav className="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between bg-white shadow w-full items-center px-20 py-5">
+      <div className=" sm:mb-0 items-center">
         <span className="bg-black text-white font-bold rounded p-3 mx-2">
           News
         </span>
@@ -18,7 +20,7 @@ const Navbar = () => {
           />
         </div>
         <a href="..." className="text-black font-bold ">
-          <img src="../../Assets/log-out.png" alt="Log Out" />
+          <img className="w-10 h-10 p-1" src={logoutIcon} alt="Log Out" />
         </a>
       </div>
     </nav>
