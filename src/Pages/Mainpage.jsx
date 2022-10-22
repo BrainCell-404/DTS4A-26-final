@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Components/Footer/Footer";
 import HotArticle from "../Components/Hot Article/HotArticle";
 import LatestNews from "../Components/Latest News/LatestNews";
 import Navbar from "../Components/Navbar/Navbar";
@@ -9,6 +10,7 @@ const Mainpage = () => {
       <Navbar />
       <HotArticle />
       <LatestNews />
+      <Footer />
     </div>
   );
 };
