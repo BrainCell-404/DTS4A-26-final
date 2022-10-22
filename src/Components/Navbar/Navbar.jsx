@@ -4,7 +4,7 @@ import logoutIcon from "../../Assets/log-out.png";
 
 const Navbar = () => {
   return (
-    <nav className="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between bg-white shadow w-full items-center px-20 py-5">
+    <nav className="font-sans flex flex-row justify-between bg-white shadow w-full items-center px-5 py-3 lg:px-20 lg:py-8 ">
       <div className=" sm:mb-0 items-center">
         <span className="bg-black text-white font-bold rounded p-3 mx-2">
           News
@@ -12,9 +12,9 @@ const Navbar = () => {
         <span className="text-black font-semibold">Portal</span>
       </div>
       <div className="flex flex-row align-center items-center">
-        <div className="mx-4">
+        <div className="md:mx-4">
           <input
-            className="px-4 py-3  rounded border-neutral-600"
+            className="px-4 py-3 md:p-2 rounded border-neutral-600"
             type="text"
             placeholder="Search Article"
           />
