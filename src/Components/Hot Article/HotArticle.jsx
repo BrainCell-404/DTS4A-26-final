@@ -34,8 +34,8 @@ const HotArticle = () => {
   // }, []);
 
   return (
-    <div className="px-20 py-5">
-      <h1 className="my-5 text-4xl font-bold">Hot Topics</h1>
+    <div className="px-5 lg:mx-16">
+      <h1 className="my-4 text-3xl font-bold sm:my-5">Hot Topics</h1>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -51,13 +51,13 @@ const HotArticle = () => {
         className="mySwiper h-96"
       >
         <SwiperSlide className="flex flex-row">
-          <div className="left z-0 flex basis-8/12 mr-10 flex-col">
+          <div className="left z-0 flex basis-12/12 lg:basis-8/12 flex-col lg:mr-10">
             <img
               className="flex w-full rounded-md"
               src={carouselImage}
               alt="example"
             />
-            <div className="z-30 md:-mt-96 -top-2 ml-10 text-white">
+            <div className="z-30 -mt-[145px] sm:-mt-[230px] md:-mt-[330px] lg:-mt-[180px] xl:-mt-[400px] ml-10 text-white">
               <a className="text-2xl my-2 font-bold" href="...">
                 Test Title
               </a>
@@ -67,8 +67,8 @@ const HotArticle = () => {
               </div>
             </div>
           </div>
-          <div className="right flex basis-4/12 my-2 mr-2 ">
-            <p className="text-ellipsis overflow-hidden indent-8 break-words whitespace-pre-wrap text-base ">
+          <div className="right basis-4/12 my-2 mr-2 hidden lg:block">
+            <p className="text-ellipsis overflow-hidden indent-8 break-words whitespace-pre-wrap text-base">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
               voluptatibus libero optio mollitia provident cum quisquam! Saepe
               voluptatem quis similique, impedit officiis repellendus unde,
