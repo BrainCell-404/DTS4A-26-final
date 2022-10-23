@@ -1,5 +1,4 @@
 import React from "react";
-import UserSearch from "./Pages/UserSearch";
 
 import "./styles/output.css";
 
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Mainpage />
-      {/* <UserSearch /> */}
     </div>
   );
 }
