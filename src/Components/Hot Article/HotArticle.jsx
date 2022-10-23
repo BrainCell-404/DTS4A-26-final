@@ -26,7 +26,6 @@ const HotArticle = () => {
 
   return (
     <div className="px-5 lg:mx-16">
-      <h1>{console.log("This is From Components ", Articles)}</h1>
       <h1 className="my-4 text-3xl font-bold sm:my-5">Hot Topics</h1>
       <Swiper
         spaceBetween={30}
