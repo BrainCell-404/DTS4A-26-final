@@ -1,19 +1,15 @@
-# DTS REA4 Final Project
+# News APP
 
-Ketentuan lengkap bisa dilihat di [Final Project Guidelines](https://docs.google.com/document/d/122KyWNQ4xxU4aFwWbM4vIfH7LM4AH2CZEZa3YsEHjCk). 
+### Short Demo
+![](https://thumbs.gfycat.com/ShrillIlliterateAlligatorsnappingturtle-size_restricted.gif)
 
-## Daftar pair
+#### Link aplikasi [Simple News App](https://newsapp-26.netlify.app/)
 
-Tugas dikerjakan secara berpasangan, untuk daftar kelompok bisa dilihat pada masing-masing Classroom atau Discord Class.
+---
 
-## Fork and Clone
+##### Penjelasan :
+Aplikasi ini dibuat untuk menampilkan berita terkini berupa artikel dari sumber yang selalu diupdate tiap harinya. terdapat pula feature Authentication dan pencarian pada website ini.
 
-Mohon perwakilan dari pair bisa melakukan fork repo ini dan clone, untuk repositori yang di fork menggunakan penamaan:
+---
 
-`dts4[a/b/c]-[nomor pair]-final`
-
-Contoh: `dts4a-01-final`
-
-## Branching, commit
-
-Branch dapat sesuai dengan kebutuhan dan kesepakatan bersama dalam pair, namun hasil akhirnya harus di merge ke branch `main` dan di push ke Github. Pastikan hasil akhir kode sudah ter-push!
+###### Author [Dimas Maulana](https://github.com/BrainCell-404)

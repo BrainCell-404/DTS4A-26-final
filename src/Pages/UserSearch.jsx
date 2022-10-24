@@ -1,23 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 import moment from "moment-timezone";
 
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 
-import userSearch, {
-  selectArticles,
-  selectSearchArticle,
-} from "../Stores/Store3";
+import userSearch, { selectArticles } from "../Stores/Store3";
 
 const UserSearch = () => {
-  // const [userInput, setUserInput] = useState('');
-
   const Articles = userSearch(selectArticles);
-  const SearchArticle = userSearch(selectSearchArticle);
 
-  useEffect(() => {
-    // SearchArticle("indonesia");
-  }, [SearchArticle]);
   return (
     <div className="">
       <Navbar />
@@ -51,7 +42,6 @@ const UserSearch = () => {
             </div>
           );
         })}
-        {console.log("from component", Articles)}
       </div>
       <Footer />
     </div>
