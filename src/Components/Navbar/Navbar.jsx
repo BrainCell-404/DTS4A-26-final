@@ -11,7 +11,6 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  // const testArticle = storesSearchArticle(selectArticles);
   const fetchArticle = storesSearchArticle(selectSearchArticle);
 
   const onChangeHandler = (e) => {
@@ -20,7 +19,6 @@ const Navbar = () => {
 
   const searchArticle = async (e) => {
     if (e.key === "Enter") {
-      console.log("article yang dicari", userInput);
       await fetchArticle(userInput);
       navigate("/search");
     }

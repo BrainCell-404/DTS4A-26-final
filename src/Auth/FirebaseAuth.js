@@ -27,7 +27,7 @@ const registerWithEmailAndPass = async (email, password) => {
       email,
       password
     );
-    console.log(userCredential);
+    console.log("Register User Berhasil", userCredential);
   } catch (err) {
     console.log(err);
   }
@@ -40,7 +40,7 @@ const signInWithEmailAndPass = async (email, password) => {
       email,
       password
     );
-    console.log(userCredential);
+    console.log("User Ditemukan", userCredential);
   } catch (err) {
     console.log(err);
   }
